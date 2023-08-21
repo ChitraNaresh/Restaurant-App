@@ -1,0 +1,49 @@
+.app-name {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.cart {
+  height: 35px;
+  width: 40px;
+}
+.nav-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 10vh;
+  box-shadow: 0px 2px 2px #e0deda;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.count-card {
+  height: 22px;
+  width: 22px;
+  background-color: #f54242;
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 15px;
+  top: 10px;
+}
+.count {
+  margin-top: 10px;
+  font-weight: 500;
+}
+.card-container {
+  display: flex;
+}
+.my-orders {
+  display: none;
+}
+@media screen and (min-width: 500px) {
+  .my-orders {
+    display: block;
+  }
+}

@@ -1,0 +1,133 @@
+.show-color {
+  height: 25px;
+  min-width: 25px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.less-than-ten {
+  border: 2px #3cb046 solid;
+  color: #3cb046;
+}
+.greater-than-ten {
+  border: 2px #e82d1c solid;
+  color: #e82d1c;
+}
+.dish-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
+.each-product-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #dcdae0;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dis-des {
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #7d7b78;
+}
+
+@media screen and (min-width: 500px) {
+  .each-product-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .dis-des {
+    font-size: 15px;
+  }
+}
+
+.dish-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: 0px;
+}
+.dish-cost {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+.customization {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #2132cc;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+.dish-calories {
+  width: 18%;
+  margin-top: 5px;
+  color: #eba134;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 4px;
+}
+.dish-image-card {
+  width: 28%;
+  display: flex;
+  justify-content: flex-end;
+}
+.product-name-card {
+  width: 48%;
+  display: flex;
+  justify-content: flex-start;
+}
+.plus-minus-card {
+  display: flex;
+  align-items: center;
+  background-color: #43cc21;
+  border-radius: 25px;
+  height: 50px;
+  width: 100px;
+  justify-content: space-around;
+  color: #ffffff;
+  margin-top: 2px;
+}
+.change-icon {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+  .dish-image-card {
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 70px;
+  }
+  .dish-image {
+    width: 100px;
+    height: 100px;
+  }
+  .product-name-card {
+    width: 100%;
+  }
+  .dish-calories {
+    width: 100%;
+    margin-left: 70px;
+  }
+}
+.not-available {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: tomato;
+}

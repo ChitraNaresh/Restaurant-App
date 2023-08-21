@@ -1,0 +1,19 @@
+.item-menu {
+  white-space: nowrap;
+  color: #fc3903;
+  height: 7vh;
+  border: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.border-val {
+  border-bottom: 3px solid #fc3903;
+}
